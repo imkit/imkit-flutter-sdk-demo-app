@@ -91,3 +91,4 @@ lib/generated_plugin_registrant.dart
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,flutter
+.idea
