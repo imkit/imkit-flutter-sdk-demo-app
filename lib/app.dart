@@ -13,7 +13,7 @@ class App extends StatelessWidget {
       supportedLocales: IMKit.instance.supportedLocales,
       home: const RoomsWidget(),
       navigatorObservers: IMKit.instance.navigatorObservers,
-      builder: IMKit.instance.builder,
+      builder: IMKit.instance.builder(null),
     );
   }
 }
