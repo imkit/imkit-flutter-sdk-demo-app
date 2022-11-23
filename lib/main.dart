@@ -10,7 +10,8 @@ Future<void> main() async {
   await IMKit.init(IMStateBuilder()
         ..setClientKey("fangho_imkit_0412_2018_001_clientkey")
         ..setChatServerURL("https://chat.fangho.com")
-        ..setTranslationApiKey("AIzaSyANXUoLgkHrCax6dct18QledIBA550lcuk")
+        ..setTranslationApiKey("AIzaSyANGEPD68MiVWDa-J1ZYVNM-5U4nLsLaFk")
+        ..setCloudTranslateAPIUrl("https://translation.googleapis.com")
         ..setSDKPackageName("imkit")
       // set customize sticker if need
       // ..setStickers([
