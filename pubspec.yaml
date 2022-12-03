@@ -35,7 +35,8 @@ dependencies:
   cupertino_icons: ^1.0.2
 
   imkit:
-    path: ../flutter_imkit_sdk
+    git:
+      url: https://github.com/imkit/imkit-flutter-sdk.git
 
 dev_dependencies:
   flutter_test:

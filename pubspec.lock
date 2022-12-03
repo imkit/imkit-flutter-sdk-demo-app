@@ -8,6 +8,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "43.0.0"
+  advance_pdf_viewer:
+    dependency: transitive
+    description:
+      name: advance_pdf_viewer
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.1"
   analyzer:
     dependency: transitive
     description:
@@ -391,13 +398,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.3.0"
-  flutter_file_view:
-    dependency: transitive
-    description:
-      name: flutter_file_view
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.0.8+6"
   flutter_gen_core:
     dependency: transitive
     description:
@@ -521,10 +521,19 @@ packages:
   imkit:
     dependency: "direct main"
     description:
-      path: "../flutter_imkit_sdk"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: "1600774c23c75fc1458fb6ac792e528d372b685d"
+      url: "https://github.com/imkit/imkit-flutter-sdk.git"
+    source: git
     version: "0.0.1"
+  infinite_listview:
+    dependency: transitive
+    description:
+      name: infinite_listview
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.1.0"
   intl:
     dependency: transitive
     description:
@@ -588,6 +597,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.1"
+  loading_indicator:
+    dependency: transitive
+    description:
+      name: loading_indicator
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.1.0"
   location:
     dependency: transitive
     description:
@@ -658,6 +674,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.2"
+  numberpicker:
+    dependency: transitive
+    description:
+      name: numberpicker
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.1.1"
   octo_image:
     dependency: transitive
     description:
@@ -741,14 +764,14 @@ packages:
       name: permission_handler
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "9.2.0"
+    version: "10.1.0"
   permission_handler_android:
     dependency: transitive
     description:
       name: permission_handler_android
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "9.0.2+1"
+    version: "10.1.0"
   permission_handler_apple:
     dependency: transitive
     description:
