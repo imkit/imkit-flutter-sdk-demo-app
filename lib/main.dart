@@ -9,7 +9,8 @@ Future<void> main() async {
 
   await IMKit.init(IMStateBuilder()
     ..setClientKey("fangho_imkit_0412_2018_001_clientkey")
-    ..setChatServerURL("https://chat.fangho.com")
+    ..setChatServerURL("https://imkit-dev.funtek.io")
+    ..setTranslationApiKey("AIzaSyDwdYjqeA5YBiTZD4X8LUmvjl2ZEacs4cY")
     ..setCloudTranslateAPIUrl("https://translation.googleapis.com")
     ..setSDKPackageName("imkit"));
 
